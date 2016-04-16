@@ -284,5 +284,3 @@ FOREIGN KEY (RefComponente)
 REFERENCES Componente(Referencia);
 
 DROP TABLE Cuenta;
-
-#Oscar
