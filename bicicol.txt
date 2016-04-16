@@ -15,6 +15,7 @@ IdCompra VARCHAR(150) NOT NULL,
 ValorTotal FLOAT NOT NULL,
 Fecha VARCHAR(150) NOT NULL,
 PRIMARY KEY (IdCompra));
+#Anacleta
 
 CREATE TABLE Compra_Proveedor(
 IdComPro VARCHAR(150) NOT NULL,
@@ -36,12 +37,14 @@ IdMarca VARCHAR(150) NOT NULL,
 Nombre VARCHAR(150)NOT NULL,
 Descripcion VARCHAR(150)
 PRIMARY KEY (IdMarca));
+#Anacleta
 
 CREATE TABLE TipoAccesorio(
 IdTipoAcc VARCHAR(150) NOT NULL,
 Nombre VARCHAR(150)NOT NULL,
 Descripcion VARCHAR(150)
 PRIMARY KEY (IdTipoAcc));
+#Anacleta
 
 CREATE TABLE Accesorio(
 Referencia VARCHAR(150) NOT NULL,
@@ -84,6 +87,7 @@ IdTipoCom VARCHAR(150) NOT NULL,
 Nombre VARCHAR(150)NOT NULL,
 Descripcion VARCHAR(150)
 PRIMARY KEY (IdTipoCom));
+#Anacleta
 
 CREATE TABLE Componente(
 Referencia VARCHAR(150) NOT NULL,
@@ -126,6 +130,7 @@ IdTipoBic VARCHAR(150) NOT NULL,
 Nombre VARCHAR(150)NOT NULL,
 Descripcion VARCHAR(150)
 PRIMARY KEY (IdTipoBic));
+#Anacleta
 
 CREATE TABLE Bicicleta(
 Referencia VARCHAR(150) NOT NULL,
@@ -166,6 +171,7 @@ IdCargo VARCHAR(150) NOT NULL,
 Nombre VARCHAR(150) NOT NULL,
 Descripcion VARCHAR(150) NOT NULL,
 PRIMARY KEY(IdCargo));
+#Anacleta
 
 CREATE TABLE Empleado(
 Documento VARCHAR(150) NOT NULL,
