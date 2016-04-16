@@ -2,7 +2,8 @@ CREATE DATABASE Bicicol;
 USE bicicol;
 #Probando, probando
 #probando
-#Hashtag
+
+#1,2,3 Hilf Mir
 
 CREATE TABLE Proveedor(
 NitEmpresa VARCHAR(150) NOT NULL PRIMARY KEY,
