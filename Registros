@@ -1,6 +1,0 @@
-INSERT INTO Proveedor
-VALUES (2, 'Scalar Bikes', '8557436', 'Bogotá', 'Cr 2 b#5-27', 'scalarbikes95@hotmail.com'),
-(3, 'DistriBicis', '48935764', 'Bucaramanga', 'Calle 52 #3-55', 'distribic@gmail.com'),
-(4, 'Cali sobre Ruedas', '7654496', 'Santa Marta', 'Av 67 calle 19', 'CSRSM@yahoo.es'),
-(5, 'Bicicletas la cima', '4814766', 'Bogotá', 'Cr 5 #25-11', 'bicislacima@hotmail.com'),
-(6, 'Accesorios Biciacc', '5647365', 'Bogotá', 'Cr 43 #25A-11', 'biciacc@hotmail.com');
